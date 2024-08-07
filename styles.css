@@ -21,13 +21,18 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    
 }
 
-nav li {
-    margin-right: 20px;
-}
 
+.li01 {
+    margin-right: 0px;
+    justify-content: left;
+}
+.li02 {
+    margin-right: 0px;
+    justify-content: right;
+}
 nav a {
     color: #fff;
     text-decoration: none;
@@ -35,15 +40,17 @@ nav a {
 }
 
 a {
-  transition-duration: 0.35s;
+    transition-duration: 0.50s;
+    transition-delay: 0.3s;
 }
 
+
 nav a:hover {
-  background-color: red;
-  border-radius: 11px;
-  width: 10px;
-  height: 10px;
-  color: greenyellow;
+    border-radius: 25px;
+    width: 10px;
+    height: 10px;
+    font-size: 31px;
+    background-image: linear-gradient(90deg, #0079D1, #FFB015, #000101, #00A750, #F1282C);
   
 }
 
@@ -92,4 +99,14 @@ footer {
     padding: 4px;
     text-align: center;
     clear: both;
+}
+p.nofollow {
+    padding-left: 40px;
+
+}
+
+header img {
+    margin: 0%;
+    width: 80px;
+    
 }
