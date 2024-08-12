@@ -10,6 +10,9 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+
+    position: fixed;
+    width: 100%;
 }
 
 header h1 {
@@ -55,12 +58,15 @@ main {
 }
 
 section {
-    margin-top: 0px;
     background-color: #f7f7f7;
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#historia {
+    margin-top: 50px;
 }
 
 h1.titulos {
